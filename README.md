@@ -31,41 +31,6 @@ Este proyecto implementa un sistema de gestión de empresas utilizando Laravel y
 - [x] `telefono`
 - [x] `estado`
 
-## Criterios de Calificación Implementados
-
-### ✅ Cumplimiento Funcional
-Todos los endpoints funcionan correctamente y generan datos precisos.
-
-### ✅ Cumplimiento Técnico
-Se respetaron todos los requerimientos tecnológicos especificados.
-
-### ✅ Manejo de Excepciones (+1 punto)
-- Excepciones personalizadas: `EmpresaNotFoundException`, `DuplicateNitException`
-- Manejo centralizado de errores en controllers
-- Logging de errores para debugging
-- Respuestas HTTP apropiadas (404, 409, 422, 500)
-
-### ✅ Estructura del Código (+1 punto)
-- **Repository Pattern**: Separación de lógica de acceso a datos
-- **Service Layer**: Lógica de negocio centralizada
-- **Dependency Injection**: Para testing y flexibilidad
-- **Form Requests**: Validaciones centralizadas
-- **Factory Pattern**: Para datos de prueba
-
-### ✅ Estilo de Codificación (+1 punto)
-- Código limpio y bien estructurado
-- Variables en inglés con **camelCase**
-- Cumple con **PSR-12** coding standards
-- Nombres descriptivos y adecuados
-- Uso de programación funcional donde es apropiado
-- Documentación completa con PHPDoc
-
-### ✅ Pruebas Unitarias (+1 punto)
-- Pruebas unitarias para modelos
-- Pruebas de integración para API endpoints
-- Factories para datos de prueba
-- Coverage completo de funcionalidades críticas
-
 ## Instalación y Configuración
 
 ### Requisitos
@@ -77,6 +42,7 @@ Se respetaron todos los requerimientos tecnológicos especificados.
 
 1. **Clonar/acceder al proyecto:**
 ```bash
+https://github.com/Danielprogramin/DesafioAICOLL.git
 cd DesafioAICOLL
 ```
 
